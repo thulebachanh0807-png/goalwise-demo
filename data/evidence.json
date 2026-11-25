@@ -1,0 +1,162 @@
+{
+  "sources": [
+    {
+      "id": "S01",
+      "title": "CPI Việt Nam · 10 tháng 2026",
+      "url": "https://www.nso.gov.vn/du-lieu-va-so-lieu-thong-ke/2026/11/chi-so-gia-tieu-dung-chi-so-gia-vang-va-chi-so-gia-do-la-my-thang-muoi-va-muoi-thang-nam-2026/",
+      "limitations": "4,57% — dữ liệu lưu từ database trước, kịch bản lịch sử, không phải dự báo.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S02",
+      "title": "SCOLI 2025",
+      "url": "https://www.nso.gov.vn/du-lieu-va-so-lieu-thong-ke/2026/04/thong-cao-bao-chi-chi-so-gia-sinh-hoat-theo-khong-gian-nam-2025/",
+      "limitations": "Hà Nội 100; TP.HCM 97,96. Không suy ra chênh lệch cấp quận.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S03",
+      "title": "Khảo sát mức sống dân cư 2024",
+      "url": "https://www.nso.gov.vn/tin-tuc-thong-ke/2025/05/thong-cao-bao-chi-ket-qua-khao-sat-muc-song-dan-cu-nam-2024/",
+      "limitations": "Chi tiêu bình quân thành thị 3,8 triệu; nông thôn 2,5 triệu/người/tháng. Không phải mức sống tối thiểu cá nhân.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S06",
+      "title": "CFPB — Your Money, Your Goals",
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/toolkit/",
+      "limitations": "Theo dõi dòng tiền và lập ngân sách.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S10",
+      "title": "SEC — Savings Goal Calculator",
+      "url": "https://www.investor.gov/financial-tools-calculators/calculators/savings-goal-calculator",
+      "limitations": "Phương pháp tính khoản góp.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S09",
+      "title": "CFPB — Emergency Fund",
+      "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/",
+      "limitations": "Bảo vệ quỹ dự phòng.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S15",
+      "title": "Gargano & Rossi — Goal Setting and Saving in the FinTech Era",
+      "url": "https://doi.org/10.1111/jofi.13339",
+      "limitations": "Cơ sở nghiên cứu thiết lập mục tiêu; chưa chứng minh hiệu quả riêng của GoalWise.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S17",
+      "title": "Karlan et al. — How Reminders Increase Saving",
+      "url": "https://doi.org/10.1287/mnsc.2015.2296",
+      "limitations": "Cơ sở thử nghiệm nhắc nhở.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S19",
+      "title": "NHNN — Quy định rút trước hạn",
+      "url": "https://baochinhphu.vn/quy-dinh-moi-ve-lai-suat-rut-truoc-han-tien-gui-10222062114522068.htm",
+      "limitations": "Lãi không kỳ hạn đối với phần rút trước hạn theo điều kiện áp dụng.",
+      "verification_status": "inherited_not_reverified"
+    },
+    {
+      "id": "S24",
+      "title": "NIST AI RMF",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "limitations": "Minh bạch và quản trị rủi ro.",
+      "verification_status": "inherited_not_reverified"
+    }
+  ],
+  "bank_products": [
+    {
+      "name": "Cake by VPBank · Tiền gửi tiêu chuẩn",
+      "min": 100000,
+      "terms": {
+        "1": 4.75,
+        "3": 4.75,
+        "6": 6.9,
+        "12": 6.9
+      },
+      "partial": true,
+      "minPartial": 100000,
+      "minShare": 0.1,
+      "maxShare": 0.9,
+      "remain": 100000,
+      "early": 0.1,
+      "rateDate": "21/10/2026",
+      "url": "https://cake.vn/tien-gui/tien-gui-tieu-chuan",
+      "verification_status": "historical_not_reverified",
+      "early_rate_status": "assumption"
+    },
+    {
+      "name": "Techcombank · Tiền gửi rút gốc linh hoạt Online",
+      "min": 1000000,
+      "terms": {
+        "1": 4.25,
+        "3": 4.55,
+        "6": 6.05,
+        "12": 6.25
+      },
+      "partial": true,
+      "minPartial": 1000000,
+      "minShare": 0,
+      "maxShare": 1,
+      "remain": 1000000,
+      "early": 0.1,
+      "rateDate": "24/10/2026",
+      "url": "https://techcombank.com/content/dam/techcombank/public-site/documents/tcb-bieu-lai-suat-tien-gui-tiet-kiem-tien-gui-co-ky-han-20261024.pdf",
+      "conditions": "https://techcombank.com/khach-hang-ca-nhan/tiet-kiem/tiet-kiem-linh-hoat/tien-gui-rut-goc-linh-hoat",
+      "verification_status": "historical_not_reverified",
+      "early_rate_status": "assumption"
+    }
+  ],
+  "synthetic_products": [
+    {
+      "name": "Sản phẩm mô phỏng A",
+      "min": 100000,
+      "terms": {
+        "1": 4.1,
+        "3": 4.5,
+        "6": 6.5,
+        "12": 6.6
+      },
+      "partial": true,
+      "minPartial": 100000,
+      "remain": 100000,
+      "early": 0.1
+    },
+    {
+      "name": "Sản phẩm mô phỏng B",
+      "min": 1000000,
+      "terms": {
+        "1": 3.9,
+        "3": 4.8,
+        "6": 5.8,
+        "12": 6.2
+      },
+      "partial": false,
+      "minPartial": 0,
+      "remain": 0,
+      "early": 0.1
+    }
+  ],
+  "prototype_rules": {
+    "alert_thresholds": [
+      75,
+      90,
+      100
+    ],
+    "cut_order": [
+      "subscriptions",
+      "fun",
+      "shopping"
+    ],
+    "floor": "User confirmation; protected and locked categories unchanged",
+    "inflation_reference": 4.57,
+    "location": "Context only"
+  }
+}
